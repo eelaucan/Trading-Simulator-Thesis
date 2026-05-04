@@ -1,13 +1,9 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "",
+  "outputDirectory": "ui_ts/frontend/dist",
   "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/ui_ts/frontend/dist/index.html"
-    },
-    {
-      "source": "/:path*",
-      "destination": "/ui_ts/frontend/dist/:path*"
-    }
-  ]
+  "rewrites": []
 }
