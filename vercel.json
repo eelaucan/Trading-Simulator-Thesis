@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/ui_ts/frontend/dist/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/ui_ts/frontend/dist/:path*"
+    }
+  ]
+}
