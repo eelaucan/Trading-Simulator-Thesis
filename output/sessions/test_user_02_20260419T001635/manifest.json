@@ -1,0 +1,20 @@
+{
+  "condition": "human_only",
+  "decision_start_week": 51,
+  "episode_name": "pilot_episode_01",
+  "files": {
+    "action_log": "action_log.csv",
+    "batch_log_csv": "batch_log.csv",
+    "batch_log_jsonl": "batch_log.jsonl",
+    "execution_log": "execution_log.csv",
+    "metrics": "metrics.json",
+    "session_metadata": "session_metadata.json",
+    "validation_log": "validation_log.csv",
+    "weekly_returns": "weekly_returns.csv"
+  },
+  "finished_at": "2026-04-19T00:20:16.139882+02:00",
+  "participant_id": "test_user_02",
+  "started_at": "2026-04-19T00:16:35.093528+02:00",
+  "status": "finished",
+  "visible_history_weeks_at_start": 52
+}

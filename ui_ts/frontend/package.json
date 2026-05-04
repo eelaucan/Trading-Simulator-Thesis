@@ -1,0 +1,14 @@
+{
+  "name": "thesis-trade-planner-component",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.html dist/index.html && cp src/styles.css dist/styles.css && tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
+
